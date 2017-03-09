@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo Dame dos cadenas
-read cad1 
-read cad2
+ cad1="" 
+ cad2=""
 
 if [ -z $cad1 ] ;then
 	echo La longitud de la cadena 1 es 0

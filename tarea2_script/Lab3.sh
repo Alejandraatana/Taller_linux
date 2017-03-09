@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo Introduce una palabra
-read palabra
-num=$palabra$RANDOM
-echo $num
+if [ $# -eq 1 ] ;then
+	num=$1$RANDOM
+	echo $num
+else
+	echo Introduce una sola cadena
+fi
